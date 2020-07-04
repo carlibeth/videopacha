@@ -1,0 +1,170 @@
+.container {
+    max-width: 1132px;
+    height: 1154px;
+    border: 1px solid gray;
+    position: relative;
+    left: 100px;
+}
+.title {
+    background-color: #FF5252;
+    margin: 0;
+    &-nav {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        &_h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 36px;
+            color: white;
+            padding: 10px;
+            text-shadow: 2px 2px 3px rgba(174,186,160,0.91);
+        }
+        &_a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            padding: 10px;
+            text-shadow: 2px 2px 3px rgba(174,186,160,0.91);
+
+        }
+    
+
+    }
+
+}
+.contenedordevideos {
+    max-width: 1132px;
+    &-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        color: black;
+        padding: 10px;
+    }
+    &-grilla {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-gap: 10px;
+        margin: 10px;
+        
+        
+
+    }
+
+}
+
+.tarjeta {
+    width: 255px;
+    height: 426px;
+    font-family: Arial, Helvetica, sans-serif;
+&-url {
+    width: 100%;
+    height: 190px;  
+    background-color: black;
+    
+    margin-bottom: 10px;
+}
+&-nombre {
+    width: 167px;
+    height: 16px;
+    margin: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+&-visulizaciones {
+    width: 84px;
+    height: 18px;
+    font-size: 11px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+&-descripcion {
+    width: 226px;
+    height: 93px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+&-boton {
+    width: 225px;
+    height: 34px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00C1AA;
+    color: white;
+}
+
+}
+
+.contenedormodal {
+    position: absolute;
+    top: 266px;
+    left: 286px;
+    max-width: 590px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+    &-title {
+        
+        height: 26px;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        color: black;
+        font-weight: bold;
+        border-bottom: 1px solid gray;
+    }
+    &-nombre, &-url {
+        
+        width: 273px;
+        height: 42px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+    &-descripcion {
+        width: 580px;
+        height: 137px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        margin: 5px 5px 5px 5px;
+
+    }
+    &-botones {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        &_agregar {
+            
+            width: 121px;
+            height: 40px; 
+            margin: 10px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 1rem;
+            border: none;
+            background-color: #FF5252;
+            color: white;
+
+        }
+        &_cancelar {
+            width: 121px;
+            height: 40px; 
+            margin: 10px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 1rem;
+            border: none;
+            background-color: #C4C4C4;
+            color: black;
+
+        }
+        
+        
+    }
+    
+
+}

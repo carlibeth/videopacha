@@ -1,0 +1,22 @@
+{
+  "videos": [
+    {
+      "url": "",
+      "nombre": "Tecnicas de Programación",
+      "visualizaciones": 0,
+      "descripcion": " lorem ipsum "
+    },
+    {
+      "url": "",
+      "nombre": "Tecnicas de Programación",
+      "visualizaciones": 0,
+      "descripcion": " lorem ipsum "
+    },
+    {
+      "url": "",
+      "nombre": "Tecnicas de Programación",
+      "visualizaciones": 0,
+      "descripcion": " lorem ipsum "
+    }
+  ]
+}
